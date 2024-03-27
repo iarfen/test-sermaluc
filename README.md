@@ -1,5 +1,5 @@
 # Test de Sermaluc - Fullstack Java Senior
-Este es el back-end del test de Sermaluc, desarrollado en Spring.
+Este es el back-end del test de Sermaluc, desarrollado en SpringBoot.
 
 ## Iniciar
 Para ejecutar la aplicación se debe utilizar el comando ./gradlew bootRun.
