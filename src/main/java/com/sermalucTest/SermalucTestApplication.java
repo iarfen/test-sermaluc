@@ -1,4 +1,4 @@
-package com.coopeuchTest;
+package com.sermalucTest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -14,10 +14,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EntityScan("com.coopeuchTest.model")
 @Configuration
 @EnableAutoConfiguration
-public class CoopeuchTestApplication {
+public class SermalucTestApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CoopeuchTestApplication.class, args);
+		SpringApplication.run(SermalucTestApplication.class, args);
 	}
 
 }

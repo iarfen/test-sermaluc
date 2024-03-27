@@ -1,12 +1,12 @@
-package com.coopeuchTest.dao;
+package com.sermalucTest.dao;
 
 import org.springframework.stereotype.Repository;
 
-import com.coopeuchTest.model.Task;
+import com.sermalucTest.model.User;
 import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.data.repository.CrudRepository;
 
 @Repository
 @Configurable
-public interface TasksDAO extends CrudRepository<Task, Long>{}
+public interface UsersDAO extends CrudRepository<User, Long>{}
 
