@@ -1,4 +1,4 @@
-package com.sermalucTest.model;
+package com.globalLogicTest.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -22,8 +22,8 @@ public class Phone {
     public Long number;
 
     @Column
-    public Long cityCode;
+    public Long citycode;
 
     @Column
-    public Long countryCode;
+    public Long countrycode;
 }

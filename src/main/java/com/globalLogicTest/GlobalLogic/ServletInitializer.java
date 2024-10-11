@@ -1,6 +1,6 @@
-package com.sermalucTest.SermalucTest;
+package com.globalLogicTest.GlobalLogic;
 
-import com.sermalucTest.SermalucTestApplication;
+import com.globalLogicTest.GlobalLogicTestApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
@@ -8,7 +8,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(SermalucTestApplication.class);
+		return application.sources(GlobalLogicTestApplication.class);
 	}
 
 }
